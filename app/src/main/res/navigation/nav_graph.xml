@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.chatchat.ui.auth.WelcomeFragment"
+        android:label="Welcome" />
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.chatchat.ui.auth.SignInFragment"
+        android:label="Sign In" />
+
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.chatchat.ui.auth.SignUpFragment"
+        android:label="Sign Up" />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.chatchat.ui.main.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/messagesFragment"
+        android:name="com.example.chatchat.ui.main.MessagesFragment"
+        android:label="Messages" />
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.chatchat.ui.main.ChatFragment"
+        android:label="Chat" />
+
+    <fragment
+        android:id="@+id/callLogFragment"
+        android:name="com.example.chatchat.ui.main.CallLogFragment"
+        android:label="Call Log" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.chatchat.ui.main.SettingsFragment"
+        android:label="Settings" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.chatchat.ui.profile.ProfileFragment"
+        android:label="Profile" />
+
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.chatchat.ui.profile.EditProfileFragment"
+        android:label="Edit Profile" />
+</navigation>
