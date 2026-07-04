@@ -67,3 +67,23 @@ service firebase.storage {
   }
 }
 ```
+# Chat App (Kotlin + Firebase)
+
+## Features
+- User Authentication
+- Real-time Chat
+- Contacts
+- Conversations
+- Call Logs
+- Firebase Integration
+
+## Technologies Used
+- Kotlin
+- Android Studio
+- Firebase Authentication
+- Cloud Firestore
+- XML
+- Gradle
+
+## Author
+Tharusha Minidu
